@@ -1,2 +1,2 @@
 # Projects-in-JavaScript
-JavaScript Projetcs
+JavaScript Projects
