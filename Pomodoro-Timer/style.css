@@ -1,0 +1,73 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+    font-family: "Libertinus Serif Display", system-ui;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.timer-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.timer-container h1 {
+    font-weight: 1000;
+    color: #333;
+}
+
+.timer-display {
+    font-size: 5rem;
+    font-weight: bolder;
+    margin: 20px 0px;
+    color: #747e6e;
+}
+
+.controls {
+    padding-bottom: 25px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 2px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#start-btn {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+#pause-btn {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+#reset-btn {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.controls button:hover {
+    opacity: 0.8;
+}
