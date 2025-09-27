@@ -89,8 +89,12 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
+  gap: 7px;
 }
+
 
 li span {
   font-weight: bold;
 }
+
