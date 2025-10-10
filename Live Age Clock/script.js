@@ -38,7 +38,7 @@ function startAgeClock() {
 
     if (days < 0) {
       const prevMonth = new Date(now.getFullYear(), now.getMonth(), 0);
-      days = days + prevMonth;
+      days = days + prevMonth.getDate();
       months--;
     }
 
