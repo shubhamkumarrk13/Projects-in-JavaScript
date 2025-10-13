@@ -56,5 +56,3 @@ This project reinforced concepts like:
 
 ---
 
-### 📂 Folder Structure  
-
