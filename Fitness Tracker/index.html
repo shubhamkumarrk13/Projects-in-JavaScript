@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Fitness Tracker</h1>
+
+        <div class="input-section">
+
+            <h2>Add New Workout</h2>
+
+            <form id="workout-form">
+
+                <input type="text" id="workout-name" placeholder="Workout Name (e.g., Running, Swimming, etc)" required>
+                <input type="number" id="calories-burned" placeholder="Calories Burned (kcal)" required min="1">
+                <input type="date" id="workout-date" required>
+                <button type="submit">Log Workout</button>
+
+            </form>
+        </div>
+
+        <div class="summary-section">
+
+            <h2>Summary</h2>
+            <p>Total Calories Burned: <span id="total-calories">0</span> kcal</p>
+
+        </div>
+
+        <div class="list-section">
+
+            <h2>Workout History</h2>
+            <ul id="workout-list">
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
